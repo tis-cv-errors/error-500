@@ -11,7 +11,7 @@ int main(void)
     
     printf("%d", output);
     
-    for (unsigned long i = 0 ; i < 9223372036854775807; i++) {};
+    for (unsigned long i = 0 ; i < 200000; i++) {};
     
     return 0;
 }
