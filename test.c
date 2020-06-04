@@ -2,7 +2,7 @@
 
 #include "library.h"
 
-// Passes with 2GB (TIS_KERNEL_MAX_MEM=1.71)
+// Fails with 2GB (TIS_KERNEL_MAX_MEM=1.71)
 int test1(void)
 {
     int input = 3;
